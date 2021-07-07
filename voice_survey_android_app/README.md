@@ -21,6 +21,12 @@ make
 python manage.py runserver
 ```
 
+### Tutorial video
+[Link](https://drive.google.com/file/d/1AD22mYGzfuRkwEjG2JnAbm9hsFanXj4S/view?usp=sharing) for tutorial of the app
+
+### App Apk
+[App APK](https://drive.google.com/file/d/1OQRHkkeDAxV-PT0HoA3e_SxrapjCdao1/view?usp=sharing). An EC2 server had been used for deployment.
+
 Use psql to create a database and follow the following blog:
 - https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-django-application-on-ubuntu-14-04
 - Then make the same changes in settings.py
