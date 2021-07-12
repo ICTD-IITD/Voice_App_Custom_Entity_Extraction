@@ -56,3 +56,10 @@ python get_age.py --query="<query_text>"
 ```bash
 python get_number.py --query="<query_text>"
 ```
+
+## Location module
+- The README file for the location module is inside the location folder
+
+## Voice survey App
+- The code for the voice survey app is inside the voice_survey_android_app folder
+
