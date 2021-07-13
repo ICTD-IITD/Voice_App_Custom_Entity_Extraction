@@ -68,6 +68,10 @@ pred_name = main.get_name("<query_text>")
 ## Location module
 - The README file for the location module is inside the location folder
 
+## DoB module
+
 ## Voice survey App
 - The code and documentation for the voice survey app is inside the voice_survey_android_app folder
 
+
+> The code for these modules is also present in a single Jupyter Notebook <em>finalEvalForPaper.ipynb</em>
