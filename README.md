@@ -1,5 +1,7 @@
 # Custom Entity Modules
 
+[Thesis link](https://drive.google.com/file/d/1Iqbk6gGcmyeDgbJYupHoMIFgOwvqdb1r/view)
+
 ## Create virtual environment
 
 - This step is optional and is required in-case a virtual environment needs to be created
