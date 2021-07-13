@@ -57,9 +57,17 @@ python get_age.py --query="<query_text>"
 python get_number.py --query="<query_text>"
 ```
 
+## Name module
+The name module is based on a 5 gram approach in which an SVM model predicts the probability of the center word (i.e. 3rd word from beginning) as the name of a person.
+
+```bash
+from Name import main
+pred_name = main.get_name("<query_text>")
+```
+
 ## Location module
 - The README file for the location module is inside the location folder
 
 ## Voice survey App
-- The code for the voice survey app is inside the voice_survey_android_app folder
+- The code and documentation for the voice survey app is inside the voice_survey_android_app folder
 
