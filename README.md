@@ -60,6 +60,25 @@ python get_number.py --query="<query_text>"
 ## Name module
 The name module is based on a 5 gram approach in which an SVM model predicts the probability of the center word (i.e. 3rd word from beginning) as the name of a person.
 
+Environment setup for Name module:
+```bash
+source path_to_<env_name>/bin/activate
+sudo apt install libpq-dev python3-dev
+sudo apt-get install python-numpy libicu-dev
+pip install pyicu
+pip install polyglot
+pip install pycld2
+pip install Morfessor
+polyglot download embeddings2.hi
+polyglot download ner2.hi
+cd Name/libsvm-3.23/
+rm svm-scale svm-train svm-predict svm.o
+make
+cd python/
+make
+cd ../../../ (go back to home dir)
+```
+
 ```bash
 from Name import main
 pred_name = main.get_name("<query_text>")
@@ -69,6 +88,11 @@ pred_name = main.get_name("<query_text>")
 - The README file for the location module is inside the location folder
 
 ## DoB module
+- This module is a heuristic based DoB extraction approach. The heuristics were developed after manual analysis of how users spoke their date of birth.
+
+```bash
+python get_dob.py --query="<query_text>"
+```
 
 ## Voice survey App
 - The code and documentation for the voice survey app is inside the voice_survey_android_app folder
