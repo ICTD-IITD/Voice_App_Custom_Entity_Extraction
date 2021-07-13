@@ -89,6 +89,19 @@ pred_name = main.get_name("<query_text>")
 ## Location module
 - The README file for the location module is inside the location folder
 
+Environment setup for location module:
+```bash
+source path_to_<env_name>/bin/activate
+sudo apt install libpq-dev python3-dev
+sudo apt-get install python-numpy libicu-dev
+pip install pyicu
+pip install polyglot
+pip install pycld2
+pip install Morfessor
+polyglot download embeddings2.hi
+polyglot download ner2.hi
+```
+
 ## DoB module
 - This module is a heuristic based DoB extraction approach. The heuristics were developed after manual analysis of how users spoke their date of birth.
 
