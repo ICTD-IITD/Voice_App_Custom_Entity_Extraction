@@ -114,3 +114,7 @@ python get_dob.py --query="<query_text>"
 
 
 > The code for these modules is also present in a single Jupyter Notebook <em>finalEvalForPaper.ipynb</em>
+
+## Data
+
+Please request for the data at contact@oniondev.com
